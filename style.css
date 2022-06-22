@@ -1,0 +1,323 @@
+:root {
+    --primary-color: green;
+    --secondary-color: #194238;
+    /* --secondary-color: #307C67; */
+    /* --third-color: #F2D5BB; */
+    /* --third-color: #fdf1e72a; */
+    --third-color: #d3e9e475;
+    --fourth-color: #9ED7CD;
+
+}
+
+
+/* Normalize */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* End normalize */
+
+body{
+    font-family: 'Assistant', sans-serif;
+    background-color: var(--third-color);
+}
+
+#welcome {
+    /* background-color: #CB2A27;
+    color: #FFFEFF; */
+    /* background-color: #FFFEFF ; */
+    /* color: #CB2A27; */
+    color: var(--secondary-color);
+    min-height: 400px;
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#welcome-name {
+    flex: 1;
+    margin: 100px 0 0 50px;
+}
+
+#welcome-name h1 {
+    font-size: 38pt;
+}
+#welcome-name h2 {
+    padding-left: 4px;
+    font-weight: 200;
+}
+
+#welcome-aboutMe {
+    min-width: 200px;
+    flex: 1;
+    text-align: center;
+    margin: 120px 30px;
+    margin-right: 50px;
+}
+
+#welcome-aboutMe img {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+#welcome-aboutMe h2 {
+    text-align: left;
+    font-size: 22pt;
+}
+
+#welcome-aboutMe p {
+    /* padding: 10px 50px; */
+    font-size: 15pt;
+    text-align: justify;
+    /* color: #fffeffe1; */
+}
+
+
+
+
+#container-knowledge {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    /* border: solid 1px; */
+}
+#container-knowledge h2{
+    padding-top: 40px;
+    /* padding-left: 50px; */
+}
+
+#knowledge {
+    text-align: center;
+    margin-top: 40px;
+    background-color: var(--secondary-color);
+    color: #FFFEFF;
+}
+
+#knowledge h2 {
+    font-size: 28pt;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#knowledge img {
+    max-width: 30px;
+    padding-right: 10px;
+}
+
+.container-list {
+    max-width: 1500px;
+    margin: 0 auto;
+    /* border: solid 1px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-list li {
+    min-width: 150px;
+    flex: 1;
+    margin: 5px;
+    font-size: 18pt;
+    text-align: left;
+    /* border: 1px solid; */
+}
+
+.container-list li:last-child {
+    padding: 40px 0;
+    font-size: 14pt;
+    text-align: justify;
+}
+
+
+
+
+
+#projects {
+    /* background-color: #FFFEFF ; */
+    color: var(--secondary-color);
+    padding-top: 30px;
+    max-width: 1180px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+#projects h2 {
+    margin: 0 auto;
+    font-size: 34pt;
+    text-align: left;
+    min-width: 200px;
+    /* border: 1px solid; */
+}
+
+
+#projects img {
+    max-width: 330px;
+    height: max-content;
+    /* flex-grow: 1; */
+    box-shadow: 0.5px 0.5px 5px grey;
+}
+
+#container-projects {
+    margin: 0 auto;
+    /* border: 1px solid; */
+}
+
+#projects-info {
+    flex-grow: 1;
+    max-width: 500px;
+    margin-bottom: 40px;
+    /* border: solid 1px; */
+}
+
+#projects-info h3 {
+    font-size: 18pt;
+}
+
+#projects-info p {
+    min-width: 200px;
+    font-size: 14pt;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.project-unit {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 980px;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.btn {
+    width: 140px;
+    height: 40px;
+    padding: 10px 22px;
+    margin-right: 20px;
+    line-height: 20px;
+    letter-spacing: .1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-live {
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+.btn-live:hover {
+    border: 2px solid #F2B6A0;
+    color: #F2B6A0;
+}
+
+.btn-source {
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+.btn-source:hover {
+    border: 2px solid #F2B6A0;
+    color: #cc4e4c;
+}
+
+
+
+#contact {
+    min-height: 300px;
+    background-color: #C1AE81;
+}
+
+#container-contact {
+    max-width: 1180px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+#contact h2{
+    font-size: 34pt;
+}
+
+.input1 {
+    height: 35px;
+    width: 400px;
+    font-size: 12pt;
+    background-color: transparent;
+}
+
+.input2 {
+    height: 100px;
+    width: 400px;
+    font-size: 12pt;
+    outline: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 615px) {
+    #welcome-name {
+        margin-top: 50px;
+    }
+    
+    #welcome-aboutMe {
+        margin-top: 30px;
+    }
+
+    #container-knowledge h2{
+        padding-left: 0px;
+    }
+
+
+}
+
+
+
+
+[data-anime] {
+    opacity: 0;
+  }
+  .js .anime {
+    opacity: 1;
+    transform: none;
+    transition: transform .8s, opacity .8s;
+  }
+  
+  /* 7 CSS personalizado dependendo da animação desejada */
+  .fadeInDown {
+    transform: translate3d(0,-20px,0);
+  }
+  .fadeInUp {
+    transform: translate3d(0,20px,0);
+  }
+  .fadeInRight {
+    transform: translate3d(20px,0,0);
+  }
+  .fadeInLeft {
+    transform: translate3d(-20px,0,0);
+  }
