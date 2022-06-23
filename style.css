@@ -43,6 +43,9 @@ body{
     background-color: var(--third-color);
 }
 
+
+/* welcome section  */
+
 #welcome {
     /* background-color: #CB2A27;
     color: #FFFEFF; */
@@ -93,8 +96,11 @@ body{
     /* color: #fffeffe1; */
 }
 
+/* End welcome section */
 
 
+
+/* Skills section */
 
 #container-knowledge {
     max-width: 600px;
@@ -115,7 +121,7 @@ body{
 }
 
 #knowledge h2 {
-    font-size: 28pt;
+    font-size: 34pt;
     margin-bottom: 20px;
     text-align: left;
 }
@@ -148,12 +154,12 @@ body{
     text-align: justify;
 }
 
+/* End skills section */
 
 
 
-
+/* Projects section */
 #projects {
-    /* background-color: #FFFEFF ; */
     color: var(--secondary-color);
     padding-top: 30px;
     max-width: 1180px;
@@ -166,27 +172,22 @@ body{
     font-size: 34pt;
     text-align: left;
     min-width: 200px;
-    /* border: 1px solid; */
 }
-
 
 #projects img {
     max-width: 330px;
     height: max-content;
-    /* flex-grow: 1; */
     box-shadow: 0.5px 0.5px 5px grey;
 }
 
 #container-projects {
     margin: 0 auto;
-    /* border: 1px solid; */
 }
 
 #projects-info {
     flex-grow: 1;
     max-width: 500px;
     margin-bottom: 40px;
-    /* border: solid 1px; */
 }
 
 #projects-info h3 {
@@ -196,8 +197,9 @@ body{
 #projects-info p {
     min-width: 200px;
     font-size: 14pt;
+    text-align: justify;
     margin-bottom: 30px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .project-unit {
@@ -239,41 +241,86 @@ body{
     color: #cc4e4c;
 }
 
+/* End projects section */
 
 
-#contact {
-    min-height: 300px;
-    background-color: #C1AE81;
+/* Contact section */
+
+#contact-me {
+    background-color: #e0dfdf;
+    padding: 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--secondary-color);
+}
+
+#contact-me h2 {
+    font-size: 28pt;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+#contact-me img {
+    max-width: 30px;
+}
+
+#contact-me button {
+    margin-top: 10px;
+    color: var(--secondary-color);
 }
 
 #container-contact {
-    max-width: 1180px;
-    margin: 50px auto;
-    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    flex-grow: 1;
+    padding-right: 80px;
 }
 
-#contact h2{
-    font-size: 34pt;
+.input-type1 {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
-.input1 {
-    height: 35px;
-    width: 400px;
-    font-size: 12pt;
-    background-color: transparent;
+.input-type2 {
+    width: 100%;
 }
 
-.input2 {
-    height: 100px;
-    width: 400px;
-    font-size: 12pt;
-    outline: 0;
+.container-media{
+    max-width: 600px;
+    text-align: left;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    flex-grow: 1;
 }
 
 
+.media a {
+    text-decoration: none;
+    font-size: 18pt;
+    text-align: left;
+    color: var(--secondary-color);
+    padding-left: 10px;
+    padding-top: 18px;
+    letter-spacing: .1rem;
+}
+
+/* End contact section */
 
 
-
+footer {
+    background-color: #e0dfdf;
+    text-align: center;
+}
+footer p {
+    padding-bottom: 20px;
+    font-weight: 200;
+}
+footer span {
+    font-weight: 400;
+}
 
 
 
@@ -293,6 +340,23 @@ body{
         padding-left: 0px;
     }
 
+    #projects-info p {
+        margin-right: 0px;
+    }
+
+
+    #container-contact {
+        
+        padding-right: 30px;
+    }
+
+    #contact-me {
+        padding: 30px;
+    }
+
+
+
+
 
 }
 
@@ -308,7 +372,6 @@ body{
     transition: transform .8s, opacity .8s;
   }
   
-  /* 7 CSS personalizado dependendo da animação desejada */
   .fadeInDown {
     transform: translate3d(0,-20px,0);
   }

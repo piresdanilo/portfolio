@@ -20,7 +20,7 @@
         <div id="welcome-aboutMe">  
             <img data-anime="800" class="fadeInDown" src="img/test.png" alt="danilo's picture">
             <h2 data-anime="1000" class="fadeInDown">About me</h2>
-            <p data-anime="1200" class="fadeInDown">I'm Danilo, a 26-year-old web developer from Brasil, now based in Italy, looking for my first opportunity to work in the field. I have a degree in music teaching and I also studied music composition, but now I'm full-time dedicated to study and practice web development. I'm passionate about technology and art. I'm a careful, attentive person, fast learner, who appreciates focusing on doing my best in everything.</p>
+            <p data-anime="1200" class="fadeInDown">I'm Danilo, a 26-year-old web developer from Brasil, now based in Italy, looking for my first opportunity to work in the field. I have a degree in music teaching and I also studied music composition, but now I'm full-time dedicated to study and practice web development. I'm passionate about technology and art. I'm a careful, attentive person, and a fast learner who appreciates focusing on doing my best in everything.</p>
         </div>
     </section>
     <section id="knowledge">
@@ -82,22 +82,40 @@
             </div>
         </div>
     </section>
-    <!-- <section id="contact">
+    <section id="contact-me">
+        
         <div id="container-contact">
             <h2>Contact me</h2>
             <form action="https://formsubmit.co/danilopireslucio@gmail.com" method="POST">
-                <input type="hidden" name="_subject" value="New email!">
-                <input class="input1" type="email" name="email" placeholder="Email Address" required>
-                <textarea class="input2" type="text" name="message" placeholder="Write your message here" required>
-
+                <div>
+                    <input type="text" name="name" class="input-type1" placeholder="Your Name" required>
+                    <input type="email" name="email" class="input-type1" placeholder="Email Adress" required>
+                </div>
+                <br>
+                <textarea placeholder="Your Message" class="input-type2" name="message" rows="10" required></textarea>
             
-
-            
-                <input type="hidden" name="_captcha" value="false">
-                <button type="submit">Send</button>
+                <button class="btn" type="submit">Send</button>
             </form>
         </div>
-    </section> -->
+        <div id="container-media" class="media">
+            <h2>Find me</h2>
+            <ul>
+                <li>
+                    <img src="img/github.png" alt="github logo"><a href="https://github.com/piresdanilo" target="_blank">Github</a>
+                </li>
+                <li>
+                    <img src="img/linkedin.png" alt="linked-in logo"><a href="https://www.linkedin.com/in/danilo-pires-lucio-747007212/" target="_blank">Linked-In</a>
+                </li>
+                <li>
+                    <img src="img/instagram.png" alt="instagram logo"><a href="https://www.instagram.com/danolos/" target="_blank">Instagram</a>
+                </li>
+            </ul>
+            
+        </div>
+    </section>
+    <footer>
+        <p>© 2022 <span class="name-footer">Danilo Pires Lucio</span></p>
+    </footer>
 
     <script src="js/simple-anime.js"></script>
     <script src="script.js"></script>
