@@ -390,6 +390,9 @@ a {
     padding-top: 18px;
     letter-spacing: .1rem;
 }
+.media a:hover {
+    color: #F2B6A0;
+}
 
 /* End contact section */
 
